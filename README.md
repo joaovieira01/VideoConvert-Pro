@@ -1,10 +1,9 @@
 # 🎥 VideoConvert Pro
 
-💡 Um aplicativo moderno de conversão de vídeo, 100% client-side, sem necessidade de backend ou upload de arquivos. Seus vídeos nunca saem do seu computador.
+💡 Um aplicativo moderno de conversão de vídeo, 100% client-side, feito inteiramente com auxílio da IA **v0.dev**.  
+Todo o desenvolvimento da interface e estrutura inicial foi gerado através do v0, acelerando drasticamente a criação.
 
----
-
-## 🚀 Tecnologias Utilizadas
+### 🚀 Tecnologias Utilizadas
 - **Next.js 14**
 - **React 18**
 - **ffmpeg.wasm (WebAssembly)**
@@ -45,7 +44,7 @@
 ## 🌙 Experiência de Usuário (UI/UX)
 - **Modo Claro / Escuro**
 - **Idiomas: Português 🇧🇷 e Inglês 🇺🇸**
-- Interface moderna e responsiva
+- Interface moderna, responsiva e gerada com v0.dev
 - Drag-and-drop para uploads
 - Indicadores claros de status (pendente, convertendo, concluído)
 
@@ -55,7 +54,7 @@
 - Privacidade total: nada sai do seu navegador
 - Não requer servidores, APIs ou backends
 - Excelente exemplo prático de uso de **WebAssembly** para aplicações reais
-- Ideal para quem deseja converter vídeos de forma gratuita, rápida e offline
+- Demonstrativo do poder e produtividade do **v0.dev**
 
 ---
 
