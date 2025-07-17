@@ -1,30 +1,67 @@
-# Modern web video app
+# 🎥 VideoConvert Pro
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+💡 Um aplicativo moderno de conversão de vídeo, 100% client-side, sem necessidade de backend ou upload de arquivos. Seus vídeos nunca saem do seu computador.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/joaovieira01s-projects/v0-modern-web-video-app)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/pT7ZK8NRNe4)
+---
 
-## Overview
+## 🚀 Tecnologias Utilizadas
+- **Next.js 14**
+- **React 18**
+- **ffmpeg.wasm (WebAssembly)**
+- **TailwindCSS**
+- **shadcn/ui**
+- **IndexedDB / LocalStorage**
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+---
 
-## Deployment
+## ✨ Funcionalidades Principais
 
-Your project is live at:
+### 🎬 Conversão de Vídeo Local (no Navegador)
+- Formatos suportados: `.mp4`, `.mkv`, `.webm`, `.avi`
+- Conversão rápida e segura, direto do navegador
+- Comandos dinâmicos otimizados para diferentes formatos
+- Isolamento de instâncias ffmpeg para cada conversão
 
-**[https://vercel.com/joaovieira01s-projects/v0-modern-web-video-app](https://vercel.com/joaovieira01s-projects/v0-modern-web-video-app)**
+### 📂 Gerenciamento de Fila
+- Múltiplos arquivos adicionados simultaneamente
+- Conversão sequencial inteligente
+- Barra de progresso individual por item
+- Cancelamento de itens específicos ou da fila completa
 
-## Build your app
+### 🕘 Histórico de Conversões
+- Nome original, formato convertido, data e miniatura
+- Miniaturas geradas automaticamente (primeiro frame do vídeo)
+- Persistência garantida via IndexedDB / LocalStorage
+- Downloads disponíveis diretamente do histórico
+- Limpeza completa do histórico a qualquer momento
 
-Continue building your app on:
+### 🛑 Validação Inteligente
+- Avisos ao tentar converter para o mesmo formato
+- Limite de tamanho por arquivo (500MB)
+- Mensagens claras de erro e status
 
-**[https://v0.dev/chat/projects/pT7ZK8NRNe4](https://v0.dev/chat/projects/pT7ZK8NRNe4)**
+---
 
-## How It Works
+## 🌙 Experiência de Usuário (UI/UX)
+- **Modo Claro / Escuro**
+- **Idiomas: Português 🇧🇷 e Inglês 🇺🇸**
+- Interface moderna e responsiva
+- Drag-and-drop para uploads
+- Indicadores claros de status (pendente, convertendo, concluído)
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+---
+
+## 🔥 Porque esse projeto é relevante?
+- Privacidade total: nada sai do seu navegador
+- Não requer servidores, APIs ou backends
+- Excelente exemplo prático de uso de **WebAssembly** para aplicações reais
+- Ideal para quem deseja converter vídeos de forma gratuita, rápida e offline
+
+---
+
+## 🛠️ Como rodar localmente
+```bash
+git clone https://github.com/seu-usuario/videoconvert-pro.git
+cd videoconvert-pro
+npm install
+npm run dev
